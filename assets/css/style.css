@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 html {
 	scroll-behavior: smooth;
-	}
+}
+
 .app-content {
 	display: flex;
 	min-height: 100vh;
@@ -21,7 +22,7 @@ html {
 	width: 60px;
 	height: 60px;
 	border-radius: 99px;
-	background-color: #2e3047;
+	background-color: #3bba9c;
 	cursor: pointer;
 }
 
@@ -69,9 +70,10 @@ html {
 	flex: 1 1 0;
 	width: 300px;
 	padding: 2rem 1rem;
-	background-color: #2e3047;
     position: fixed;
+	background: #ffffff;
     height: 100vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sidebar-content h3 {
@@ -86,14 +88,16 @@ html {
 }
 .sidebar-content .active 
 {
-	border-right: 5px solid #3bba9c;
+	border-right: 4px solid #3bba9c;
+	color:#3bba9c !important;
 }
 .sidebar-content .menu .menu-content {
 	display: block;
 	padding: 1em;
-	color: #FFF;
 	text-decoration: none;
+	color: #505d6b;
 	transition: 0.2s linear;
+	font-size: 16px;
 }
 
 .main-content {
@@ -122,7 +126,7 @@ html {
 
 @media (max-width: 1024px) {
 	.sidebar-content {
-		max-width: 300px;
+		max-width: 500px;
 	}
 }
 
