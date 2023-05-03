@@ -17,11 +17,19 @@
 		</div>
 		<aside class="sidebar-content">
 			<nav class="menu">
-				<a href="#start" class="menu-content active">Medeco Flutter App UI Kit
+				<a href="#overview" class="menu-content active">Overview
                 </a>
-				<a href="#install" class="menu-content">Getting Started with UI Kit</a>
-				<a href="#ui" class="menu-content">How to UI Kit?</a>
-				<a href="#" class="menu-content">Contact</a>
+				<a href="#authentication" class="menu-content">Authentication</a>
+				<a href="#provider" class="menu-content">
+					Provider
+					<a href="#api" class="sub-menu-content">API</a>
+				</a>
+				<a href="#advertiser" class="menu-content">Advertiser</a>
+				<a href="#user" class="menu-content">User</a>
+				<a href="#custome-support" class="menu-content">Custome Support</a>
+				<a href="#audion-process" class="menu-content">Audion Process</a>
+				<a href="#earning" class="menu-content">Earning</a>
+				<a href="#conclusion" class="menu-content">Conclusion</a>
 			</nav>
 		</aside>
 		<main class="main-content">
@@ -41,6 +49,21 @@
 		  <div class="content-description" id="ui">
             <h1>How to UI Kit?</h1>
             <p>In this folder you should find all models and Entities used in the App just you can link them with your backend (Firebase, PHP, JAVA, or other Api) and you can you collection and list in your App</p>
+          </div>
+		  <div class="content-description" id="modal">
+            <h1>Models</h1>
+            <p>In this folder /lib/models you should find all models and Entities used in the App just you can link them with your backend (Firebase, PHP, JAVA, or other Api) and you can you collection and list in your App</p>
+			<h4>Example:</h4>
+			<pre v-pre="" data-lang="dart"><code class="lang-dart">//...
+				class Doctor{
+				  String id = UniqueKey().toString();
+				  String name;
+				  String description;
+				  String state;
+				  Color color;
+				  String avatar;
+				}
+				  //...</code></pre>
           </div>
 		</main>
 	</div>
