@@ -83,11 +83,12 @@ hr{
 .sidebar-content .menu {
 	margin: 0 -1rem;
 }
-.sidebar-content .active 
+aside nav a.active 
 {
 	border-right: 4px solid #3b187c;
 	color:#3b187c !important;
 }
+
 .sidebar-content .menu .menu-content {
 	display: block;
 	padding: 1em;
