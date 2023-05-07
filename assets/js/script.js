@@ -1,5 +1,7 @@
 const toggleMenu = document.querySelector('.toggle-menu');
 		const sidebarContent = document.querySelector('.sidebar-content');
+    const sectionContainer=document.querySelectorAll('section');
+    const navLinksContainer=document.querySelectorAll('aside nav a')
 		var links = document.querySelectorAll("nav a");
 		toggleMenu.addEventListener('click', () => {
 			toggleMenu.classList.toggle('active-link');
@@ -13,6 +15,7 @@ const toggleMenu = document.querySelector('.toggle-menu');
 			this.classList.add("active");
 		});
 		});
+
 		window.addEventListener("scroll", function() {
   // Get the current vertical scroll position
   var scrollPos = window.pageYOffset || document.documentElement.scrollTop;

@@ -155,6 +155,10 @@ hr{
 	width: 100% !important;
 	height: auto !important;
 }
+.audition-img
+{
+	width: 550px !important;
+}
 @media (max-width: 1024px) {
 	.sidebar-content {
 		max-width: 500px;
@@ -164,6 +168,7 @@ hr{
 	   display: grid;
 	   grid-template-columns: 1fr 1fr 1fr;
 	}
+	
 }
 
 @media (max-width: 768px) {
@@ -191,6 +196,10 @@ hr{
 	{
 		width: 300px;
 	}
+	.audition-img
+{
+	width: 250px !important;
+}
 	.content-description .mobile-img
 {
    display: grid;
